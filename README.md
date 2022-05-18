@@ -59,7 +59,7 @@ Feed =>
 
 JSON
 	users: [{userObj},
-	posts: [{UUID: {UUID, userName, content}, 
+	posts: [{UUID: {UUID, uid, content}, 
 	
 	
 MVPs:
@@ -67,7 +67,7 @@ MVPs:
 
 user flow => login
 
-1. user wants to log in. => input userName and PW
+1. user wants to log in. => input uid and PW
 	> fxn to get UN and PW => store as currentUser
 		currentUser = { userNmae: unFromForm, password: pwFromForm }
 	
